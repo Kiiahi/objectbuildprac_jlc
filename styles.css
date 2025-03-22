@@ -8,7 +8,14 @@ body {
  
   h1 {
     text-align: center;
-    margin: 20px 0;
+   margin: 20px auto;
+    padding: 10px;
+    background: linear-gradient(90deg, #ff7eb3, #ff758c);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    border-radius: 10px;
+    width: fit-content;
   }
  
   canvas {
