@@ -13,9 +13,8 @@ function random(min, max) {
 
 // Helper function: returns a random rgb() color string
 function randomRGB() {
-  return `rgb(${random(0, 255)} ${random(0, 255)} ${random(0, 255)})`;
-}
-
+    return `rgb(${random(0, 255)}, ${random(0, 255)}, ${random(0, 255)})`;
+  }
 // making a class for the balls
 class Ball {
   constructor(x, y, velX, velY, color, size) {
